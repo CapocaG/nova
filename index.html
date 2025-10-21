@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Para usted</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+  <h1 id="message" aria-live="polite"></h1>
+  <h2 id="phrase" aria-live="polite"></h2>
+    <div class="player-wrap" id="playerWrap">
+      <button id="togglePlayer" class="player-toggle" aria-label="Ocultar reproductor">♪</button>
+      <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts  allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/pe/album/me-enamor%C3%A9/1489356409?i=1489356576"></iframe>
+    </div>
+    <canvas id="canvas"></canvas>
+    <footer class="credit">Lamento lo que pasó. Mi intención ahora es reparar, no fingir olvido.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
